@@ -9,10 +9,14 @@ import Recentwork from '@/components/recentwork'
 import Howitworks from '@/components/howitworks'
 import Pricing from '@/components/Pricing'
 
+
 export default function Home() {
+
+
+
   return (
     <>
-      <div className='main'>
+      <div className='headline'>
         <Headline />
       </div>
       <div className='headline'>

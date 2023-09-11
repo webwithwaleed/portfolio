@@ -1,9 +1,12 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import Img1 from '../pics/feedback/file 1.png'
+import Img2 from '../pics/feedback/file 7.png'
+import Img3 from '../pics/feedback/file 8.png'
 
 function headline() {
   return (
-    <div id='home' className="headline">
+    <div id='home' className="box">
         <motion.h3
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -19,7 +22,31 @@ function headline() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5}}
           href="#thisyou" className='contact' style={{ margin: '20px 0px' }}>Get Started</motion.a>
+
+          <motion.img
+          initial={{ opacity: 0, y: 20, rotate: -15 }}
+          whileInView={{ opacity: 1, y: 0, rotate: -15}}
+          transition={{ duration: 0.8, delay: 0.5}}
+          src={Img3.src} className='float floatleft' alt="" />
+
+<motion.img
+          initial={{ opacity: 0, y: 20, rotate: 15 }}
+          whileInView={{ opacity: 1, y: 0, rotate: 15}}
+          transition={{ duration: 0.8, delay: 0.4}}
+          src={Img2.src} className='float floatright' alt="" />
+      
+      <motion.img
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0}}
+          transition={{ duration: 0.8, delay: 0.3}}
+          src={Img1.src}  className='float' alt="" />
+
+      
+      
+      
       </div>
+
+      
   )
 }
 
