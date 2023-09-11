@@ -1,8 +1,8 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import Img1 from '../pics/feedback/file 1.png'
-import Img2 from '../pics/feedback/file 7.png'
-import Img3 from '../pics/feedback/file 8.png'
+import Img1 from '../pics/feedback/File 1.png'
+import Img2 from '../pics/feedback/File 7.png'
+import Img3 from '../pics/feedback/File 8.png'
 
 function headline() {
   return (
